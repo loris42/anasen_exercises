@@ -1,0 +1,44 @@
+.chart {
+  margin: 40px;
+  padding: 20px;
+  border: 2px solid lightgrey;
+}
+
+.axis {
+  color: grey;
+}
+
+.bar .selection {
+  fill: lightcoral;
+  fill-opacity: 0.7;
+}
+
+.bar .selection:hover {
+  cursor: pointer;
+}
+
+.bar.selected .selection {
+  fill: red;
+  fill-opacity: 1;
+  stroke-width: 2px;
+  stroke: black;
+}
+
+.handle--s {
+  display: none;
+}
+
+.grid line {
+  stroke: lightgrey;
+  stroke-dasharray: 3;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+.y-axis-title {
+  font-size: 12px;
+}
